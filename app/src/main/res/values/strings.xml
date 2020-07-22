@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Liga Da Justiça</string>
+    <string name="herois">Heroís</string>
+    <string name="mulher">Mulher Maravilha</string>
+    <string name="sp">Super Man</string>
+    <string name="bt">Batman</string>
+    <string name="flash">Flash</string>
+    <string name="imagem">Saiba Mais!</string>
+    <string name="sel">Selecionar</string>
+    <string name="nome">_Nome: </string>
+    <string name="codnome">_CodNome: </string>
+    <string name="habilidades">_Principal Habilidade: </string>
+    <string name="vulnerabilidades">_Principal Vulnerabilidade: </string>
+    <string name="viloes">_Vilão Principal: </string>
+    <string name="especie">_Espécie: </string>
+    <string name="equipamentos">_Equipamentos</string>
+
+
+    <string name="diana">Princesa Diana</string>
+    <string name="laco">Laço da Verdade</string>
+    <string name="amazonas">Amazonas</string>
+    <string name="maxwell">Maxwell Lord</string>
+    <string name="ArmasFogo">Armas de Fogo</string>
+    <string name="espadaMM">Espada de Athena</string>
+
+    <string name="nomeBT">Bruce Wayne</string>
+    <string name="dinheiro">Dinheiro</string>
+    <string name="artesMarciais">Artes Marciais</string>
+    <string name="coringa">Coringa</string>
+    <string name="humano">Humano</string>
+    <string name="batMovel">Bat-Movel</string>
+
+
+    <string name="voo">Voo</string>
+
+    <string name="kriptonita">Kriptonita</string>
+    <string name="superForca">Super Força</string>
+    <string name="nomeSM">Clark Joseph Kent</string>
+    <string name="kriptoniano">kriptoniano</string>
+    <string name="lexLutor">Lex Lutor</string>
+    <string name="nenhum">Nenhum</string>
+
+    <string name="esposicao">Visitar Exposição</string>
+
+    <string name="nomeFL">Barry Allen</string>
+    <string name="velocidade">Super-Velocidade</string>
+    <string name="vilaoFlash">Professor Zoom</string>
+    <string name="trajeGodFlash">Traje do god Flash</string>
+    <string name="dimensoes">Pode ficar preso em outra dimensão</string>
+    <string name="metaHumano">Meta-Humano</string>
+    <string name="emailLabSTAR">Mandar Email para Laboratório S.T.A.R</string>
+
+    <string name="uniforme">Uniforme</string>
+
+    <string name="secreto">Botão Secreto...</string>
+
+    <string name="fortalezaSolidao">Fortaleza da Solidão</string>
+    <string name="refSM">Refugio do SuperMan:</string>
+
+    <string name="msgSecreta">Apenas verdadeiros heroís conseguem ver o botão secreto...</string>
+    <string name="ActivitySecreta">Essa aba é secreta! Não conte para ninguém, a Liga da Justiça confia em você...</string>
+    <string name="telLDJ">LIGAR PARA LIGA DA JUSTIÇA</string>
+</resources>

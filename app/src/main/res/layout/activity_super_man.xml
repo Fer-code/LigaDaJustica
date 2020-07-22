@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="fortalezaSolidao"
+    android:orientation="vertical"
+    tools:context=".SuperMan">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:hint="@string/sp"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/txtNomeSM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/nome"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/idNomeSM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nomeSM"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/txtCodNomeSM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/codnome"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/idcodNomeSM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sp"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/txtHabSM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/habilidades"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/idHabSM1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/voo"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/idHabSM2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/superForca"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/txtVulSM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/vulnerabilidades"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtArtesSM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/kriptonita"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/txtVilaoSM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/viloes"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtLexL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/lexLutor"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/divider7"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/txtEspSM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/especie"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtKripitoniano"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/kriptoniano"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/divider8"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/txtEquipamentoSM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/equipamentos"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtNenhum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/uniforme"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/divider13"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/txtRefSM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/refSM"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnSiteSM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/fortalezaSolidao"
+        android:onClick="fortalezaSolidao" />
+
+</LinearLayout>

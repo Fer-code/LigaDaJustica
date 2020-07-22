@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MulherMaravilha">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/mulher"
+        android:textColorHint="@android:color/holo_red_dark"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <TextView
+        android:id="@+id/txtNomeMM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/nome"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/idNomeMM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/diana"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/txtCodNomeMM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/codnome"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/idcodNomeMM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/mulher"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/txtHabMM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/habilidades"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/idHabMM1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/superForca"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/txtVulMM1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/vulnerabilidades"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtArmas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ArmasFogo"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+
+    <TextView
+        android:id="@+id/txtVilaoMM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/viloes"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtMaxwellLord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/maxwell"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/divider9"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/txtEspMM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/especie"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtAmazonasMM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/amazonas"
+        android:textSize="18sp" />
+
+
+    <View
+        android:id="@+id/divider11"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/txtEsquipamentoMM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/equipamentos"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtEspadaMM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/espadaMM"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/btnCenMM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/laco"
+        android:layout_gravity="center"
+        android:onClick="imagemLaço" />
+
+    <View
+        android:id="@+id/divider12"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+
+    <Button
+        android:id="@+id/btnMM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/imagem"
+        android:layout_marginTop="100dp"
+        android:onClick="efetuarBusca" />
+
+</LinearLayout>

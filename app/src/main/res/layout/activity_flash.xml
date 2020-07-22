@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".FlashActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:hint="@string/flash"
+        android:textColorHint="@android:color/holo_orange_dark"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/txtNomeF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/nome"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/idNomeF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nomeFL"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/txtCodNomeF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/codnome"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/idcodNomeF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/flash"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/txtHabF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/habilidades"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/idHabF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/velocidade"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/txtVulF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/vulnerabilidades"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtArtesM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dimensoes"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+
+    <TextView
+        android:id="@+id/txtVilaoFL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/viloes"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtFlashReverso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/vilaoFlash"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/divider7"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/txtEspFL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/especie"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtMetaHumanoFL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/metaHumano"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/divider8"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/txtEquipamentoFL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/equipamentos"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtUniformeFL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/uniforme"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/txtEmailLab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/emailLabSTAR"
+        android:onClick="enviarEmail"
+        android:textSize="18sp" />
+</LinearLayout>

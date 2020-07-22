@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/herois"
+        android:textColorHint="@android:color/holo_red_dark"
+        android:textSize="36sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+
+        <RadioButton
+            android:id="@+id/mm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/mulher"
+            android:onClick="escolha"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/idSP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/sp"
+            android:onClick="escolha"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/idBt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/bt"
+            android:onClick="escolha"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/idFlash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/flash"
+            android:onClick="escolha"
+            android:textSize="24sp" />
+
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/msgSecreta"
+        android:layout_marginTop="200dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnSecreto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/secreto"
+        android:onClick="botaoSecreto"
+        android:textSize="18sp" />
+
+</LinearLayout>
